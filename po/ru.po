@@ -1,0 +1,59 @@
+# Russian translations for jacknotifier package.
+# Copyright (C) 2012 Maxim A. Mikityanskiy
+# This file is distributed under the same license as the jacknotifier package.
+# Max <maxtram95@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: jacknotifier 0.1\n"
+"Report-Msgid-Bugs-To: maxtram95@gmail.com\n"
+"POT-Creation-Date: 2012-03-08 22:58+0200\n"
+"PO-Revision-Date: 2012-03-08 23:00+0300\n"
+"Last-Translator: Maxim A. Mikityanskiy <maxtram95@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../dbus.c:110
+msgid "Headphones plugged in"
+msgstr "Наушники подключены"
+
+#: ../dbus.c:110
+msgid "Headphones plugged out"
+msgstr "Наушники отключены"
+
+#: ../dbus.c:122
+msgid "Line in plugged in"
+msgstr "Линейный вход подключен"
+
+#: ../dbus.c:122
+msgid "Line in plugged out"
+msgstr "Линейный вход отключен"
+
+#: ../dbus.c:116
+msgid "Line out plugged in"
+msgstr "Линейный выход подключен"
+
+#: ../dbus.c:116
+msgid "Line out plugged out"
+msgstr "Линейный выход отключен"
+
+#: ../dbus.c:113
+msgid "Microphone plugged in"
+msgstr "Микрофон подключен"
+
+#: ../dbus.c:113
+msgid "Microphone plugged out"
+msgstr "Микрофон отключен"
+
+#: ../dbus.c:119
+msgid "Video out plugged in"
+msgstr "Видеовыход подключен"
+
+#: ../dbus.c:119
+msgid "Video out plugged out"
+msgstr "Видеовыход отключен"
+

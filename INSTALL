@@ -1,0 +1,8 @@
+To install jacknotifier run:
+
+$ make
+# make install
+
+To uninstall jacknotifier run:
+
+# make uninstall

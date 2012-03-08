@@ -1,0 +1,6 @@
+jacknotifier changelog:
+
+08/03/12 - 0.1:
+		- Initial release. Jacknotifier daemon shows notifications
+		about inserted or pulled headphones and microphone.
+		- Gettext support.
