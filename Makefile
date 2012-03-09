@@ -40,8 +40,10 @@ clean:
 	$(RM) jacknotifierd *.o *.dep po/*.mo
 
 install:
-	$(INSTALL) jacknotifierd /usr/bin
-	cd po; for mo in *.mo; do $(INSTALL) -v $$mo /usr/share/locale/$${mo%.mo}/LC_MESSAGES/jacknotifier.mo; done
+	$(INSTALL) -d $(DESTDIR)/usr/bin
+	$(INSTALL) jacknotifierd $(DESTDIR)/usr/bin
+	for mo in po/*.mo; do m=$${mo#po/}; $(INSTALL) -d $(DESTDIR)/usr/share/locale/$${m%.mo}/LC_MESSAGES; $(INSTALL) $$mo $(DESTDIR)/usr/share/locale/$${m%.mo}/LC_MESSAGES/jacknotifier.mo; done
 
 uninstall:
-	$(RM) /usr/bin/jacknotifierd
+	$(RM) $(DESTDIR)/usr/bin/jacknotifierd
+	for mo in *.mo; do m=$${mo#po/}; $(RM) $(DESTDIR)/usr/share/locale/$${m%.mo}/LC_MESSAGES/jacknotifier.mo; done
