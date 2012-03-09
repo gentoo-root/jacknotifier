@@ -1,0 +1,20 @@
+What is it?
+===============
+Jack Notification Daemon is a daemon that monitors signals from Jack Listener Daemon and shows desktop notifications about ALSA jacks plugging/unplugging events.
+
+How to use it:
+===============
+Add /usr/bin/jacknotifierd to your desktop environment autostart.
+
+How to compile:
+===============
+$ make
+# make install
+
+How to uninstall:
+===============
+# make uninstall
+
+Please report bugs to: https://github.com/gentoo-root/jacknotifier/issues, registration is needed.
+
+Maxim A. Mikityanskiy
