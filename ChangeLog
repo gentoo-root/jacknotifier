@@ -4,3 +4,4 @@ jacknotifier changelog:
 		- Initial release. Jacknotifier daemon shows notifications
 		about inserted or pulled headphones and microphone.
 		- Gettext support.
+		- Russian locale.
