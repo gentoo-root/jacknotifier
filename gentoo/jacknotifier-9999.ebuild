@@ -13,7 +13,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="sys-apps/dbus
-	x11-libs/libnotify"
+	x11-libs/libnotify
+	media-sound/jacklistener"
 DEPEND="${RDEPEND}"
 
 src_install() {
